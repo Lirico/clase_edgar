@@ -30,3 +30,9 @@
 - git push origin nombre_rama (actualizar cambios en la rama remota)
 
 - git push (actualizar cambios en ramas no remotas)
+
+- git pull origin nombre_rama (Descargar cambios en rama remota)
+
+- git pull (descargar cambios en ramas no remotas)
+
+- git clone enlace_repo
