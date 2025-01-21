@@ -26,3 +26,7 @@
 ### Conectando con GITHUB
 
 - git remote add origin enlace_al_repo (Enlazar el proyecto con el origen remoto del repositorio)
+
+- git push origin nombre_rama (actualizar cambios en la rama remota)
+
+- git push (actualizar cambios en ramas no remotas)
