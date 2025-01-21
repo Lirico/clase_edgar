@@ -1,0 +1,29 @@
+/* global.css */
+
+/* 
+    Es la encargada de contener:
+    - La raiz de las variables :root
+    - El sistema de reseteo general
+    - Los estilos de los elementos que se van a repetir en todas las paginas
+        -> Navbar
+        -> Footer
+*/
+
+@font-face {
+    font-family: "LOTR";
+    src: url(/src/assets/fonts/RingbearerMedium-51mgZ.ttf);
+}
+
+body {
+    font-family: "LOTR";
+}
+
+nav {
+    background-color: purple;
+}
+li {
+    list-style: none;
+}
+a {
+    color: white;
+}

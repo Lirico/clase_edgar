@@ -1,0 +1,50 @@
+/* SELECTOR UNIVERSAL */
+/* * {
+    margin: 0;
+} */
+
+/* SELECTOR DE ETIQUETA */
+/* p {
+    color: red;
+} */
+
+/* SELECTOR DE CLASE */
+/* .tribu {
+    color: green;
+} */
+
+/* SELECTOR DE ID */
+/* #unico {
+    color: blue;
+} */
+
+/* 
+    ESPECIFICIDAD 
+
+    Cuanto mas especifico es un selector, mayor su prioridad.
+*/
+
+/* SELECTOR DE HIJO */
+/* .pepito > article > h2 {
+    color: orange;
+} */
+
+/* SELECTOR DE DESCENDIENTES */
+/* .pepito h2 {
+    color: aqua;
+} */
+
+/* SELECTOR DE HERMANOS */
+/* h2 ~ p {
+    color: yellow;
+} */
+
+/* SELECTOR DE HERMANO ADYASCENTE */
+/* h2 + p {
+    color: aqua;
+} */
+
+/* SELECTOR DE ATRIBUTO */
+/* input[type="text"]{
+    color: red;
+} */
