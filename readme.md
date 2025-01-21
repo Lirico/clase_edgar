@@ -1,4 +1,4 @@
-## COMANDOS GIT
+## Comandos GIT
 
 - git init (Inicializa git en un proyecto.)
 
@@ -14,7 +14,7 @@
 
 - git log (me permite ver la lista de commits/backups)
 
-### CREAR RAMAS
+### Crear ramas
 
 - git branch nombre_rama (Crea una nueva rama)
 
@@ -23,6 +23,6 @@
 - git checkout -b nombre_rama (Crea una nueva rama y me cambia a ella automaticamente)
 
 
-### CONECTANDO CON GITHUB
+### Conectando con GITHUB
 
 - git remote add origin enlace_al_repo (Enlazar el proyecto con el origen remoto del repositorio)
