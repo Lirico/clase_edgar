@@ -1,5 +1,7 @@
 /* global.css */
-
+* {
+    margin: 0;
+}
 /* 
     Es la encargada de contener:
     - La raiz de las variables :root
@@ -9,7 +11,7 @@
         -> Footer
 */
 
-@font-face {
+/* @font-face {
     font-family: "LOTR";
     src: url(/src/assets/fonts/RingbearerMedium-51mgZ.ttf);
 }
@@ -26,4 +28,111 @@ li {
 }
 a {
     color: white;
+} */
+
+
+/****************************** 10 de Febrero ***************************/
+
+/* 
+    Dimensiones 
+
+    Nos referimos a las diferentes tipos de medidas que podemos utilizar para manipular nuestros elementos.
+
+    Tenemos 2 tipos:
+        -> Medidas absolutas -> px
+        -> Medidas relativas -> %, viewport height, viewport width, rem, em
+*/
+
+/* .container {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+/* .hijo {
+    width: 50%;
+    height: 50%;
+    background-color: orange;
+} */
+/* .otro {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}  */
+
+/* Los rems dependen de la medida general del documento */
+/* html {
+    font-size: 8px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.75rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.25rem;
+} */
+
+/* Los ems dependen de la medida general del container */
+
+/* .rebelde {
+    font-size: 25px;
+}
+
+.rebelde h1 {
+    font-size: 2em;
+}
+.rebelde h2 {
+    font-size: 1.75em;
+}
+.rebelde h3 {
+    font-size: 1.5em;
+}
+.rebelde h4 {
+    font-size: 1.25em;
+} */
+
+/* COLORES */
+/* 
+    RGB -> (Red, green, blue) 0 - 255
+           (120,   50,   70)
+
+    Hexadecimal -> Vamos a combinar elementos de un sistema de 16 digitos (alfanumerico)
+
+    -> 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+    HSL -> Matiz (hue), saturacion, brillo (lightness)
+    (0 - 360, 0 - 100%, 0 - 100%)
+*/
+/* p {
+    background-color: black;
+    color: hsla(321, 48%, 54%, 0.502)
+} */
+
+.container {
+    width: 700px;
+    height: 500px;
+    background-image: url("https://assets.unileversolutions.com/recipes-v2/218401.jpg");
+    background-size: cover;
+}
+
+.filter {
+    width: inherit;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.6);
+
+
+     /* NO MIRES ESTO */
+    display: flex;
+    align-items: center;
+}
+
+p {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
 }
