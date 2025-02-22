@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/************ FLEXBOX ***********/
+/* 
+    Es una caracteristica de CSS que nos permite destribuir elementos.
+    A su vez estos elementos tienen cierta flexbilidad para adaptarse a los cambios
+    tanto en tamaños de contenedores como de anchos de dispositivo.
+*/
+
+/* Siempre el elemento flexible es el container */
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: column;
+    /* Desplazar o distribuir en el eje X */
+    justify-content: center;
+    /* Desplazar o distribuir en el eje Y */
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 1px solid black;
+    font-size: 2rem;
+}
+/* 
+.uno {
+    align-self: flex-start;
+}
+.tres {
+    align-self: flex-end;
+} */
+
+
+/* .padre {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: orange;
+    border: 2px solid black;
+} */
+
+
+.nav_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    width: 100%;
+    padding: 10px 1.5%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    column-gap: 10px;
+}
+.logo img {
+    width: 60px;
+}
+.nav_menu ul {
+    display: flex;
+    column-gap: 50px;
+    font-size: 1.25rem;
+}
+
+.nav_menu li {
+    list-style: none;
+}
+.nav_menu a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* MODELO DE CAJAS -> BOX MODELING */
+/* 
+    1. Contenido
+    2. Relleno
+    3. Bordes
+    4. Margenes
+*/
+/* .caja {
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    color: white;
+    font-size: 1.5rem;
+    margin: 50px;
+    border: 10px solid aqua;
+}
+.caja2 {
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    color: white;
+    font-size: 1.5rem;
+} */
